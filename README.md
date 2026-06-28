@@ -1,7 +1,7 @@
 # Horas-que-Importan-2.0
 Nuestra campaña visual Horas Que Importan desarrolla un nuevo producto basado en memo llamado "MEMOT", es un proyector para mesita de luz ideado para tranquilizar al usuario con sus bellas luces antes de dormir.
 
-## Integrante:
+## Integrantes:
 * **Sofia Mojica**
 * **Gabriel Zacarias** 
 * **Leonel De Armas**
