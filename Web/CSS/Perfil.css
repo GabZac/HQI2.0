@@ -1,0 +1,137 @@
+.perfil-container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:120px 8% 40px;
+}
+
+.perfil-card{
+    max-width:1100px;
+    width:100%;
+}
+
+.perfil-header{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    margin-bottom:30px;
+}
+
+.avatar{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:45px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.perfil-header h1{
+    font-size:2.2rem;
+    margin-bottom:5px;
+}
+
+.perfil-header p{
+    font-size:1.1rem;
+}
+
+.perfil-grid{
+    margin-top:35px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.bloque{
+    background:rgba(255,255,255,.88);
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.bloque h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,
+select{
+    padding:12px;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+}
+
+button{
+    margin-top:10px;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:#ffb7d5;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+canvas{
+    width:100%;
+    height:320px;
+}
+
+.mensaje-memo{
+    margin-top:30px;
+    text-align:center;
+}
+
+.mensaje-memo p{
+    font-size:1.15rem;
+    line-height:1.8;
+}
+
+@media(max-width:900px){
+
+.perfil-grid{
+    grid-template-columns:1fr;
+}
+
+.perfil-header{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
+canvas{
+background:white;
+border-radius:15px;
+padding:15px;
+}
+
+#promedio{
+font-size:35px;
+font-weight:bold;
+margin:15px 0;
+}
+
+#mensajeMemo{
+font-size:20px;
+font-weight:bold;
+}

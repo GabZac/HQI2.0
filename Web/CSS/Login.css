@@ -1,0 +1,128 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%); /* Degradado suave */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+
+.user-menu-container {
+  position: relative;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50% !important;
+  background-color: #2c3e50;
+  color: white;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+
+.dropdown-menu {
+  display: none !important; 
+}
+
+.login-container {
+  max-width: 460px;
+  width: 90%;
+  margin: auto; 
+  background: rgba(255, 255, 255, 0.75); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  padding: 45px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px 0 rgba(31, 38, 135, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-sizing: border-box;
+}
+
+.form-group input[type="date"] {
+  font-family: inherit;
+  color: #2c3e50;
+}
+
+.login-container h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  text-align: center;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #57606f;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #74b9ff;
+  box-shadow: 0 0 8px rgba(116, 185, 255, 0.5);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
+.error-msg {
+  color: #ff4757;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
+  display: none;
+}
