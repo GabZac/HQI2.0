@@ -23,7 +23,7 @@ Nuestra campaña visual Horas Que Importan desarrolla un nuevo producto basado e
 --------------------------------
 
 ## Lenguajes, Aplicaciones y Herramientas Utilizadas
-* Lenguajes: HTML, CSS, JavaScript, C++
+* Lenguajes: HTML, CSS, JavaScript, C++, phpMyAdmin, InfinityFree
 * Aplicaciones: Visual Studio Code, Zbrush, Autodesk Fusion, EasyEDA
 * Herramientas: Protoboard, Pinzas, Soldador, Alicate, Destornillador, Impresora 3D
 
