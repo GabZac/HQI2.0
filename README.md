@@ -6,6 +6,7 @@ Nuestra campaña visual Horas Que Importan desarrolla un nuevo producto basado e
 * **Gabriel Zacarias** 
 * **Leonel De Armas**
 * **Mateo Roberts**
+* **Colaborador Electrónico: Santiago Medina**
 
 ----------------------------
 
