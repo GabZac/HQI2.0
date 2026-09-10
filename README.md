@@ -53,7 +53,7 @@ Ya que nuestro proyecto es físico, de manera virtual solo podrá ver sus códig
 
 ## Imagen Prototipo de Nuestro Proyecto
 
-![Prototipo de MEMOT](web/IMAGENES/Producto-prototipo.png)
+![Prototipo de MEMOT](Producto-prototipo.png)
 
 -------------------------------------------------
 
