@@ -1,0 +1,54 @@
+# === CONFIGURACIONES GENERALES & OS ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# === PHP & COMPOSER ===
+vendor/
+.phpunit.result.cache
+.env
+.env.local
+
+# === JAVASCRIPT & NODE ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+
+# === C++ (Compilación y Binarios) ===
+# Archivos objeto y librerías
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Ejecutables
+*.exe
+*.out
+*.app
+
+# Carpetas de compilación comunes
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# === SQL & BASES DE DATOS ===
+*.sql.gz
+*.backup
+*.dump
+# NOTA: Si guardas respaldos de BD locales, agrégalos aquí:
+# mi_base_de_datos.sql
+
+# === ARCHIVOS DE DISEÑO / COMPILADOS CSS ===
+.sass-cache/
+*.css.map
